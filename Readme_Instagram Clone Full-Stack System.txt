@@ -1,4 +1,4 @@
-#Instagram Clone: Full-Stack System Architecture.✅
+#Instagram Clone: Full-Stack System Architecture✅
 📌 Project Statement:
 Modern social media applications require a robust backend to handle complex data relationships, secure user sessions, and high-frequency media interactions. This project is a full-stack implementation of an Instagram-style platform, focusing on security, scalability, and relational database integrity.
 
@@ -15,7 +15,7 @@ Security: JSON Web Tokens (JWT), Bcrypt Password Hashing, CORS, Dotenv
 Frontend: HTML5, CSS3, JavaScript (Fetch API/Async-Await)
 Tools: Postman (API Testing), Git/GitHub, VS Code
 
-🔄 Technical Workflow:
+🔄Technical Workflow:
 User Security: When a user registers, their password is "salted" and hashed via Bcrypt. Upon login, the server issues a JWT token.
 
 API Logic: The frontend sends the token in the Authorization header for protected actions (like posting or liking).
@@ -54,3 +54,4 @@ Search Optimization: Implementing indexing in SQL to allow fast searching of use
 
 
 Dockerization: Using Docker to containerize the app for consistent deployment across cloud environments.
+
