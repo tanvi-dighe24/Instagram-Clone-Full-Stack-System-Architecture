@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone - Full Stack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>Instagram Clone</h2>
+        <div id="auth-status">Not Logged In</div>
+    </nav>
+
+    <div class="container">
+        <section id="login-section">
+            <h3>Login</h3>
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="handleLogin()">Login</button>
+        </section>
+
+        <section id="feed-section" style="display:none;">
+            <h3>Your Feed</h3>
+            <div id="posts-container"></div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
