@@ -24,7 +24,7 @@ Data Retrieval: Used complex SQL JOINs to fetch a personalized user feed, combin
 
 Error Handling: Implemented a global middleware to catch and log errors without crashing the server.
 
-📂 System Folder Breakdown
+📂 System Folder Breakdown:
 To demonstrate professional-grade organization, the project is divided into 7 key modules:
 
 config/: Database connection pooling logic.
@@ -41,17 +41,18 @@ utils/: Reusable helper functions (Token generation).
 
 uploads/: Local storage management for media assets.
 
-🔮 Future Scope & Additions
+🔮 Future Scope & Additions:
 Short-term Improvements
 Cloud Storage: Transitioning from local uploads/ to Cloudinary or AWS S3 for professional media hosting.
 
 Interactive UI: Migrating the frontend to React.js for a more dynamic, single-page experience.
 
-Advanced Roadmap
+Advanced Roadmap:
 Real-time Features: Adding Socket.io for instant notifications when a user likes a post or starts following.
 
 Search Optimization: Implementing indexing in SQL to allow fast searching of usernames and hashtags.
 
 
 Dockerization: Using Docker to containerize the app for consistent deployment across cloud environments.
+
 
